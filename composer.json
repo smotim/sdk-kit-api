@@ -1,5 +1,5 @@
 {
-  "name": "kit/sdk-kit-api",
+  "name": "kitdelivery/sdk-kit-api",
   "description": "PHP client for KIT API",
   "type": "library",
   "keywords": [

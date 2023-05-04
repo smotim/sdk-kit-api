@@ -18,24 +18,7 @@
 Выполните следующие шаги, что бы установить библиотеку:
 
 1. Скачайте и установите [Composer](https://getcomposer.org/download/) package manager.
-2. Добавьте `kit/sdk-kit-api` в раздел `require` файла `composer.json`. Так же укажите ссылку на репозиторий `https://AntonUly@bitbucket.org/antonuly/sdk-kit-api.git` в разделе `repositories` файла `composer.json`.
-
-```json
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://AntonUly@bitbucket.org/antonuly/sdk-kit-api.git"
-    },
-    ...
-]
-```
-
-3. Выполните обновление Composer `composer update`.
-4. Включите автозагрузчик, если вы не пользовались им ранее.
-```php
-require 'path/to/vendor/autoload.php';
-```
-Замените `path/to/vendor/autoload.php` с правильным путем к файлу `autoload.php`.
+2. composer require "kitdelivery/sdk-kit-api":"*"
 
 **Примечание:** API клиент использует `php-http/curl-client` и `nyholm/psr7` для реализации PSR-18, PSR-17 и PSR-7.
 Вы можете заменить эти реализации во время установки, заменив библиотеку на реализацию по вашему выбору.

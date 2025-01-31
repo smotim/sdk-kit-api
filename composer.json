@@ -19,7 +19,7 @@
     "php-http/client-implementation": "^1.0",
     "php-http/message-factory": "^1.0",
     "php-http/discovery": "^1.13",
-    "psr/log": "^1.1",
+    "psr/log": "^1.0|^2.0|^3.0",
     "brick/math": "^0.9.1",
     "ext-curl": "*",
     "ext-json": "*",

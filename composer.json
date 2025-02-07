@@ -23,7 +23,7 @@
     "brick/math": "^0.9.1",
     "ext-curl": "*",
     "ext-json": "*",
-    "liip/serializer": "2.2.*",
+    "liip/serializer": "2.6.*",
     "symfony/cache": "7.2.*",
     "doctrine/annotations": "^1.13",
     "psr/event-dispatcher": "^1.0",

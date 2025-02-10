@@ -98,7 +98,7 @@ class ArraySupportDecorator implements SerializerInterface
         return $this->serializer->toArray($data, $context);
     }
 
-    public function fromArray(array $data, string $type, ?Context $context = null)
+    public function fromArray(array $data, string $type, ?Context $context = null): mixed
     {
         if (static::isArrayType($type)) {
             return $this->decodeArray($data, $type, $context);

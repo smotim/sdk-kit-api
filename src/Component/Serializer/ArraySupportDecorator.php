@@ -63,7 +63,7 @@ class ArraySupportDecorator implements SerializerInterface
      * @throws \Liip\Serializer\Exception\Exception
      * @throws \Liip\Serializer\Exception\UnsupportedTypeException
      */
-    public function deserialize(string $data, string $type, string $format, ?Context $context = null): string
+    public function deserialize(string $data, string $type, string $format, ?Context $context = null): mixed
     {
         if ($format !== 'json') {
             throw new UnsupportedFormatException('Liip serializer only supports JSON for now');

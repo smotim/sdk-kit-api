@@ -25,7 +25,7 @@ if (isset($jsonData['address_code'])) {
 
 }
 if (isset($jsonData['cityName'])) {
-    $model->cityName = $jsonData['cityName'];
+    $model->city_name = $jsonData['cityName'];
 
 }
 if (isset($jsonData['phone'])) {

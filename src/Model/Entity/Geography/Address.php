@@ -57,7 +57,7 @@ class Address
      * @JSM\SerializedName("cityName")
      *
      */
-    public $cityName;
+    public $city_name;
 
     /**
      * @var string[]

@@ -30,7 +30,7 @@ if (isset($jsonData[$index9]['address_code'])) {
 
 }
 if (isset($jsonData[$index9]['cityName'])) {
-    $model->addreses[$index9]->cityName = $jsonData[$index9]['cityName'];
+    $model->addreses[$index9]->city_name = $jsonData[$index9]['cityName'];
 
 }
 if (isset($jsonData[$index9]['phone'])) {

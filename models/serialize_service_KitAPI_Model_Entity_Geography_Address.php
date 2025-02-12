@@ -21,8 +21,8 @@ if (null !== $model->lon) {
 if (null !== $model->address_code) {
     $jsonData["address_code"] = $model->address_code;
 }
-if (null !== $model->cityName) {
-    $jsonData["cityName"] = $model->cityName;
+if (null !== $model->city_name) {
+    $jsonData["cityName"] = $model->city_name;
 }
 if (null !== $model->phone) {
     $index9Array = $model->phone;

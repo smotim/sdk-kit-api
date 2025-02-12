@@ -30,8 +30,8 @@ if (null !== $model->addreses[$index16]->lon) {
 if (null !== $model->addreses[$index16]->address_code) {
     $jsonData["hidden_array"][$index16]["address_code"] = $model->addreses[$index16]->address_code;
 }
-if (null !== $model->addreses[$index16]->cityName) {
-    $jsonData["hidden_array"][$index16]["cityName"] = $model->addreses[$index16]->cityName;
+if (null !== $model->addreses[$index16]->city_name) {
+    $jsonData["hidden_array"][$index16]["cityName"] = $model->addreses[$index16]->city_name;
 }
 if (null !== $model->addreses[$index16]->phone) {
     $index35Array = $model->addreses[$index16]->phone;

@@ -28,7 +28,6 @@
     "doctrine/annotations": "^1.13",
     "psr/event-dispatcher": "^1.0",
     "symfony/console": "^4.0|^5.0|^6.0",
-    "civicrm/composer-compile-plugin": "^0.18.0",
     "neur0toxine/psr.http-client-implementation.php-http-curl": "*",
     "neur0toxine/psr.http-factory-implementation.nyholm": "*",
     "neur0toxine/psr.http-message-implementation.nyholm": "*",
@@ -98,7 +97,6 @@
     "process-timeout": 600,
     "allow-plugins": {
       "php-http/discovery": true,
-      "civicrm/composer-compile-plugin": true,
       "dealerdirect/phpcodesniffer-composer-installer": true
     }
   }

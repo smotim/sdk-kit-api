@@ -15,11 +15,17 @@ if (null !== $model->price) {
 if (null !== $model->quantity) {
     $jsonData["quantity"] = $model->quantity;
 }
+if (null !== $model->comment) {
+    $jsonData["comment"] = $model->comment;
+}
 if (null !== $model->name) {
     $jsonData["name"] = $model->name;
 }
 if (null !== $model->currency_code) {
     $jsonData["currency_code"] = $model->currency_code;
+}
+if (null !== $model->service_code) {
+    $jsonData["service_code"] = $model->service_code;
 }
 if (null !== $model->payer_debitor) {
     $jsonData["payer_debitor"] = $model->payer_debitor;

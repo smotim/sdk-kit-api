@@ -16,12 +16,20 @@ if (isset($jsonData['quantity'])) {
     $model->quantity = $jsonData['quantity'];
 
 }
+if (isset($jsonData['comment'])) {
+    $model->comment = $jsonData['comment'];
+
+}
 if (isset($jsonData['name'])) {
     $model->name = $jsonData['name'];
 
 }
 if (isset($jsonData['currency_code'])) {
     $model->currency_code = $jsonData['currency_code'];
+
+}
+if (isset($jsonData['service_code'])) {
+    $model->service_code = $jsonData['service_code'];
 
 }
 if (isset($jsonData['payer_debitor'])) {

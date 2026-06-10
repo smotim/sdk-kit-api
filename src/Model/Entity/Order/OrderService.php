@@ -39,6 +39,15 @@ class OrderService
      * @var string
      *
      * @JSM\Type("string")
+     * @JSM\SerializedName("comment")
+     */
+    public $comment;
+
+    /**
+     *
+     * @var string
+     *
+     * @JSM\Type("string")
      * @JSM\SerializedName("name")
      */
     public $name;
@@ -51,6 +60,15 @@ class OrderService
      * @JSM\SerializedName("currency_code")
      */
     public $currency_code;
+
+    /**
+     *
+     * @var string
+     *
+     * @JSM\Type("string")
+     * @JSM\SerializedName("service_code")
+     */
+    public $service_code;
 
     /**
      *
